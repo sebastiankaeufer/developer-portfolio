@@ -759,6 +759,14 @@
             gap: clamp(40px,6vw,100px);
             align-items: start;
         }
+        .about-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--c-border);
+            margin-bottom: 32px;
+        }
         .about-text h2 {
             font-family: var(--serif);
             font-size: clamp(2rem,4vw,3.2rem);
@@ -1450,6 +1458,7 @@
     <div class="container">
         <div class="about-grid rv">
             <div class="about-text">
+                <img src="assets/sebastian-kaeufer.png" alt="Sebastian Käufer" class="about-photo" width="120" height="120" loading="lazy">
                 <h2>Beyond the <em>code</em></h2>
                 <p>
                     Born and raised in Germany with 10+ years in corporate frontend development. I traded the office for the Yucatan jungle, where I now run a cenote and campground with my partner alongside my dev work.
